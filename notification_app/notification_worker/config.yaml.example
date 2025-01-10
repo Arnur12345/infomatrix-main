@@ -1,0 +1,15 @@
+db:
+  host: localhost
+  username: postgres
+  password: mysecretpassword
+  database: postgres
+  port: 5432
+telegram_token: "1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+message_queue: 
+  host: "localhost"
+  port: 5672
+  username: "admin"
+  password: "adminpasswd"
+  virtual_host: "/"
+  heartbeat: 60
+  connection_timeout: 30

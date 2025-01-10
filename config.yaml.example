@@ -1,0 +1,20 @@
+db:
+  host: localhost
+  username: postgres
+  password: mysecretpassword
+  database: postgres
+  port: 5432
+telegram_token: "1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+camera_sources:
+  - 0
+model_path: models/yolov8n-pose.onnx
+org_id: 10720fb6-3c2c-4503-a2d6-f5e619bd07d9
+
+message_queue: 
+  host: localhost
+  port: 5671
+  username: "login"
+  password: "password"
+  virtual_host: "/"
+  heartbeat: 60
+  connection_timeout: 30
